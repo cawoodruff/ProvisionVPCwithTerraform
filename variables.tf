@@ -1,16 +1,15 @@
 variable "vpc_cidr" {
-  description = "CIDR of VPC"
-  #default = "10.0.0.0/16"
+  description = "New Client VPC CIDR"
 }
 
 variable "aws_region" {
-  description = "EC2 Region for the VPC"
+  description = "Region for the New Client VPC"
 }
 
 variable "availability_zone1" {
-  description = "Avaialbility Zones"
+  description = "Primary Availability Zone"
 }
 
 variable "availability_zone2" {
-  description = "Avaialbility Zones"
+  description = "Backup Availability Zone"
 }

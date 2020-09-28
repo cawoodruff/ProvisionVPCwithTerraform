@@ -17,7 +17,7 @@ resource "aws_vpc" "main" {
 ################# Subnets #############
 resource "aws_subnet" "subnet1" {
   vpc_id            = aws_vpc.main.id
-  cidr_block        = "10.0.1.0/24"
+  cidr_block        = "30.0.1.0/24"
   availability_zone = var.availability_zone1
 
   tags = {
@@ -26,7 +26,7 @@ resource "aws_subnet" "subnet1" {
 }
 resource "aws_subnet" "subnet2" {
   vpc_id            = aws_vpc.main.id
-  cidr_block        = "10.0.2.0/24"
+  cidr_block        = "30.0.2.0/24"
   availability_zone = var.availability_zone2
 
   tags = {
@@ -36,7 +36,7 @@ resource "aws_subnet" "subnet2" {
 
 resource "aws_subnet" "subnet3" {
   vpc_id            = aws_vpc.main.id
-  cidr_block        = "10.0.3.0/24"
+  cidr_block        = "30.0.3.0/24"
   availability_zone = var.availability_zone1
 
   tags = {
@@ -45,7 +45,7 @@ resource "aws_subnet" "subnet3" {
 }
 resource "aws_subnet" "subnet4" {
   vpc_id            = aws_vpc.main.id
-  cidr_block        = "10.0.4.0/24"
+  cidr_block        = "30.0.4.0/24"
   availability_zone = var.availability_zone2
 
   tags = {
@@ -54,7 +54,7 @@ resource "aws_subnet" "subnet4" {
 }
 resource "aws_subnet" "subnet5" {
   vpc_id            = aws_vpc.main.id
-  cidr_block        = "10.0.5.0/24"
+  cidr_block        = "30.0.5.0/24"
   availability_zone = var.availability_zone1
 
   tags = {
@@ -63,7 +63,7 @@ resource "aws_subnet" "subnet5" {
 }
 resource "aws_subnet" "subnet6" {
   vpc_id            = aws_vpc.main.id
-  cidr_block        = "10.0.6.0/24"
+  cidr_block        = "30.0.6.0/24"
   availability_zone = var.availability_zone2
 
   tags = {
@@ -72,7 +72,7 @@ resource "aws_subnet" "subnet6" {
 }
 resource "aws_subnet" "subnet7" {
   vpc_id            = aws_vpc.main.id
-  cidr_block        = "10.0.7.0/24"
+  cidr_block        = "30.0.7.0/24"
   availability_zone = var.availability_zone1
 
   tags = {
@@ -81,7 +81,7 @@ resource "aws_subnet" "subnet7" {
 }
 resource "aws_subnet" "subnet8" {
   vpc_id            = aws_vpc.main.id
-  cidr_block        = "10.0.8.0/24"
+  cidr_block        = "30.0.8.0/24"
   availability_zone = var.availability_zone2
 
   tags = {
